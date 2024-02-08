@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int i;
-	int j;
-	for(i=0;i<5;i=i+1){
-		for(j=0;j<5;j++){
+	int row;
+	int col;
+	for(row=0;row<5;row=row+1){
+		for(col=0;col<5;col++){
 			cout<<"* ";
 		}
 		cout<<endl;
