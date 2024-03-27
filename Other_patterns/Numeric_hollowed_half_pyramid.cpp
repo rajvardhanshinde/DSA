@@ -1,38 +1,50 @@
-// *
-// * *
-// *   *
-// *     *
-// * * * * *      
 #include<iostream>
 using namespace std;
 int main(){
     int row,col;
-    for ( row = 0; row < 5; row++)
+    for (row = 0; row < 5; row++)
     {
-        if (row==0)
+        for ( col = 0; col < row +1; col++)
         {
-            cout<<"*";
-        }
-        else if (row==4)
-        {
-            for ( col = 0; col < 5; col++)
+            if (col == 0 || col == row  || row==5-1)
             {
-            cout<<"*";
-            }
-            
-        }
-        else{
-            if (col==0  || col==row)
-            {
-                cout<<"*";
+                cout<<col+1;
             }
             else{
                 cout<<" ";
             }
             
+            
         }
         cout<<endl;
-        
     }
     
 }
+
+
+
+// GENRIC CODE
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int row,col,nr;
+//     cout<<"Enter no of rows:"<<endl;
+//     cin>>nr;
+//     for (row = 0; row < nr; row++)
+//     {
+//         for ( col = 0; col < row +1; col++)
+//         {
+//             if (col == 0 || col == row  || row==nr-1)
+//             {
+//                 cout<<col+1;
+//             }
+//             else{
+//                 cout<<" ";
+//             }
+            
+            
+//         }
+//         cout<<endl;
+//     }
+    
+// }
