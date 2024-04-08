@@ -11,7 +11,7 @@ int main(){
     vector<int> ans;
 
     // TRIPLET FOR SUM 80
-    
+
     for (int i = 0; i < sizea; i++)
     {
         ans.push_back(a[i]);
@@ -38,13 +38,9 @@ int main(){
                 if (element+ans[j]+ans[k]==80)
                 {
                     cout<<"("<<element<<","<<ans[j]<<","<<ans[k]<<")"<<endl;
-
-                }
-                
-            }
-            
-        }
-        
+                }   
+            }   
+        }   
     }
     
     
