@@ -27,7 +27,7 @@ int main(){
     for (int i = 0; i < ans.size(); i++)
     {
         cout<<ans[i]<<" ";
-    }
+    } 
     for (int i = 0; i < ans.size(); i++)
     {
         int element=ans[i];
@@ -37,7 +37,7 @@ int main(){
             {
                 if (element+ans[j]+ans[k]==80)
                 {
-                    cout<<"("<<element<<","<<ans[j]<<","<<ans[k]<<")"<<endl;
+                    cout<<"("<<element<<","<<ans[j]<<", "<<ans[k]<<")"<<endl;
                 }   
             }   
         }   
