@@ -20,9 +20,6 @@ Operator precedence
 switch case
 
 
-Find the unique number from array(vector)=XOR ??????
-duplicate value in intersection and union ?
-finding the common in 3 arrays?
 
 
 Array and vector
